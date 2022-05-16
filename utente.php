@@ -1,5 +1,6 @@
 <?php
 class Utente{
+    
     public $nome;
     public $cognome;
     public $codiceFiscale;
@@ -18,8 +19,5 @@ class Utente{
         $this->città = $_città;
         $this->email = $_email;
     }
-
-    
-
 }
 ?>

@@ -6,8 +6,19 @@ class Utente{
     public $dataDiNascita;
     public $indirizzo;
     public $città;
-    public $utenteRegistrato; //valore booleano 
     public $email;
+    public $utenteRegistrato; //valore booleano 
+
+    function __construct($_nome,$_cognome,$_codiceFiscale,$_dataDiNascita,$_indirizzo, $_città, $_email){
+        $this->nome = $_nome;
+        $this->cognome = $_cognome;
+        $this->codiceFiscale = $_codiceFiscale;
+        $this->dataDiNascita = $_dataDiNascita;
+        $this->indirizzo = $_indirizzo;
+        $this->città = $_città;
+        $this->email = $_email;
+    }
+
     
 
 }

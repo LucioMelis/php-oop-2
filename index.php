@@ -2,6 +2,10 @@
 <?php
 
 include_once 'utente.php';
-$utente = new Utente('Erik','Schievenin','MLSLCU92H12B354P','12-06-1992'); //passo i dati dell'utente
+$utente_uno = new Utente('Erik','Schievenin','MLSLCU92H12B354P','12-06-1992','Via Delle Rose 54','Roma','eriksioxx@gmail.com'); //passo i dati dell'utente
+var_dump($utente_uno);
+
+include_once 'prodotto.php';
+$prodotto_uno = new Prodotto ('Ultima Urinary','cibo', 15,'efficiente per i cani di taglia media');
 
 ?>

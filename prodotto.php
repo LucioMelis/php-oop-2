@@ -1,8 +1,9 @@
 <?php
 class Prodotto{
+
     public $nomeProdotto;
     public $tipologia;
-    public $prezzo;
+    public $prezzo = 0;
     public $descrizioneProdotto;
     public $numeroPezzi= 0;
 
